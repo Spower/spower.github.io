@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  Kontakt
+title: Kontakt
 permalink: /kontakt/
+published: true
 ---
+
 <br>
 __S-Power OÜ__
 
@@ -17,3 +19,5 @@ Tallinn
 tegevjuht Erki Purge
 
 tel +3725166308
+
+![](/_posts/file0001883327171.jpg)
