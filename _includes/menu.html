@@ -1,0 +1,20 @@
+      <div id="menu">
+        <div class="nav_main">
+          <ul>
+            <li >
+              <a href="/" title="Avaleht">
+                Avaleht
+              </a>
+            </li>
+
+{% for node in site.posts %}
+    {% if page.url == node.url %}
+      <li class="current_page_item"><a href="{{node.url}}" class="current_page_item">{{node.title}}</a></li>
+    {% else %}
+      <li><a href="{{node.url}}">{{node.title}}</a></li>
+    {% endif %}
+  {% endfor %}
+
+          </ul>
+        </div>
+      </div>
