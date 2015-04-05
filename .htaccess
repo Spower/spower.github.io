@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^fconsult\.ee
+RewriteRule (.*) http://www.fconsult.ee/$1 [R=301,L]
